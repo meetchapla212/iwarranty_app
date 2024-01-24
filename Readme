@@ -1,0 +1,59 @@
+Steps to start project
+1. npm install
+2. To run project: npx ts-node index.ts search <content_post_title>
+(content_post_title: Enter title to search and Parse data
+e.g. 
+ command: npx ts-node index.ts search UNIVERSITY
+ output: Result [
+  {
+    directory_category: 'rain',
+    content_children_count: 'directory_listing_review|0;directory_listing_lead|0',
+    directory_contact__email: '',
+    directory_contact__fax: '',
+    directory_contact__mobile: '',
+    directory_contact__phone: '02 6248 6887',
+    directory_contact__website: 'https://university-pharmacy-drugstore.business.site/',
+    content_post_id: '20221',
+    content_post_slug: 'university-pharmacy',
+    content_body: '',
+    directory_location__street: 'B2 UNIV.PHARM.HEALTH&WELLBEING',
+    directory_location__city: 'Sydney',
+    directory_location__country: 'AU',
+    directory_location__address: 'B2 UNIV.PHARM.HEALTH&WELLBEING AUSTRALIAN NATIONAL U  NSW 200',
+    directory_location__lat: '-35.27758',
+    directory_location__lng: '149.120171',
+    directory_location__zip: '2601',
+    directory_location__state: 'Australian Capital Territory',
+    directory_social__facebook: '',
+    directory_social__googleplus: '',
+    directory_social__twitter: '',
+    content_post_status: 'trashed',
+    content_post_title: 'UNIVERSITY PHARMACY'
+  },
+  {
+    directory_category: 'rain',
+    content_children_count: 'directory_listing_review|0;directory_listing_lead|0',
+    directory_contact__email: '',
+    directory_contact__fax: '',
+    directory_contact__mobile: '',
+    directory_contact__phone: '02 6248 6887',
+    directory_contact__website: 'https://university-pharmacy-drugstore.business.site/',
+    content_post_id: '21340',
+    content_post_slug: 'university-pharmacy-1',
+    content_body: '',
+    directory_location__street: 'B2 UNIV.PHARM.HEALTH&WELLBEING',
+    directory_location__city: 'Sydney',
+    directory_location__country: 'AU',
+    directory_location__address: 'B2 UNIV.PHARM.HEALTH&WELLBEING AUSTRALIAN NATIONAL U  NSW 200',
+    directory_location__lat: '-35.27758',
+    directory_location__lng: '149.120171',
+    directory_location__zip: '2601',
+    directory_location__state: 'Australian Capital Territory',
+    directory_social__facebook: '',
+    directory_social__googleplus: '',
+    directory_social__twitter: '',
+    content_post_status: 'Published',
+    content_post_title: 'UNIVERSITY PHARMACY'
+  }
+]
+)
